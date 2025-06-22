@@ -11,7 +11,7 @@
 
 https://arxiv.org/abs/2101.07905 (Feature Sharing Cooperative Network for Semantic Segmentation)
 
-## 2.DATASET![alt text](image.png)
+## 2.DATASET
 
 使用的數據集為ACDC(Automated Cardiac Diagnosis Challenge) https://www.creatis.insa-lyon.fr/Challenge/acdc/
 
