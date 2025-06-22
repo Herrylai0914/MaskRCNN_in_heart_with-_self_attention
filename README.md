@@ -1,5 +1,5 @@
 # MaskRCNN_in_heart_with-_self_attention
-1. Introduce
+## 1. Introduce
 
 這是一個傳統mask_rcnn的實驗程式 我的目標是使用maskrcnn去分割心臟的心室 以左心室、右心室、心肌為目標。
 
@@ -7,7 +7,11 @@
 
 在程式中加入self_attention去提高分割的效果。 Self attenation (https://arxiv.org/abs/1803.02155)
 
+還有加入一個是feature share的技術，在訓練的途中建立兩個訓練任務，讓不同的訓練部分可以互相分享邊緣資訊。
 
+https://arxiv.org/abs/2101.07905 (Feature Sharing Cooperative Network for Semantic Segmentation)
+
+## 2.DATASET![alt text](image.png)
 
 使用的數據集為ACDC(Automated Cardiac Diagnosis Challenge) https://www.creatis.insa-lyon.fr/Challenge/acdc/
 
