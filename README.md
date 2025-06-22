@@ -47,10 +47,7 @@ Each group was clearly defined according to physiological parameter, such as the
 |----------------|---------|----------  |
 | Resnet 101 FPN RGB  | 0.459    | 0.64  |
 | Resnet 101 FPN GRAY | 0.482    | 0.743 |
-
-| backbone  (LV)      | IoU     | 
-|----------------|---------|-----
-| Resnet 101 FPN GRAY | 0.71    |--self_attenation
+| Resnet 101 FPN GRAY | 0.71     | --self_attenation
 
 ### feature share 
 
